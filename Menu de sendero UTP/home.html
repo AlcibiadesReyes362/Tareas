@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Estilo/homestyle.css">
+    <title>Home</title>
+</head>
+<body>
+    <!-- Apaertura de Header -->
+    <header class="header fondo">
+        <div class="contenedor">
+            <div class="boton-menu">
+                <label for="boton-menu">☰</label>
+            </div>
+            <div class="titulo">
+                <h1>Sendero UTP</h1>
+            </div>
+            <div class="boton-usuario">
+                <label for="boton-usuario">Nombre de usuario</label>
+            </div>
+        </div>
+    </header>
+    <input type="checkbox" id="boton-menu">
+    <div class="contenedor-menu">
+        <div class="contenedor-sidebar">
+            <nav>
+                <a href="#">Ver eventos</a>
+                <a href="#">Agregar eventos</a>
+                <a href="#">Gestor usuarios</a>
+                <a href="#">Biodiversidad</a>
+                <a href="#">Detalles</a>
+                <a href="#">Formulario</a>
+                <a href="#">Sobre nosotros</a>
+            </nav>
+            <label for="boton-menu">✖️</label>
+        </div>
+    </div>
+    <input type="checkbox" id="boton-usuario">
+    <div class="contenedor-usuario">
+        <div class="sidebar-usuario">
+            <nav>
+                <a href="#">Perfil de usuario</a>
+                <a href="#">Cerrar sesión</a>
+            </nav>
+            <label for="boton-usuario">✖️</label>
+        </div>
+    </div>
+    <!-- Cierre de Header -->
+
+    <!-- Apaertura de Sección para el video -->
+    <section class="contenedor-seccionv">
+        <div>
+            <video src="Video/no estas haciendo nada.mp4" controls class="video"></video>
+        </div>
+    </section>
+    <!-- Cierre de sección para el video -->
+    
+    <!-- Titulo y subtitulo para la explicación del proyecto -->
+    <div class="subtitulo">
+        <div class="espacio-subtitulo">
+            <h2>Disfruta de los Senderos UTP</h2>
+        </div>
+        <div class="espacio-subtitulo2">
+            <h3>Disfruta el recorrido y vive una experiencia inigualable</h3>
+        </div>
+    </div>
+    <!-- Titulo y subtitulo para la explicación del proyecto -->
+
+    <!-- Apertura para seccion de explicación del proyecto -->
+    <section class="contenedor-explicacion">
+        <div class="texto-explicacion">
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit platea urna, praesent mus pretium dis blandit gravida massa. Sociosqu iaculis posuere nostra scelerisque vivamus mauris libero aliquet tincidunt in, tempor congue netus quis nulla conubia velit justo. In aliquet tortor neque pulvinar vulputate porttitor tempus varius venenatis mus gravida erat, fusce nascetur scelerisque aliquam tellus diam turpis blandit sociosqu maecenas rutrum volutpat, per mauris dapibus sociis fringilla hendrerit arcu porta penatibus vivamus dictum.</p>
+        </div>
+        <div>
+            <img src="img/fondoexplicacion.png" alt="">
+        </div>
+    </section>
+    <!-- Cierre para seccion de explicación del proyecto -->
+
+    <!-- Titulo del carrucel -->
+    
+    <!-- Titulo del carrucel -->
+
+    <!-- Apertura de sección del carrucel -->
+    <section>
+        <div class="slide">
+            <h2 class="titulo-slide">Conoce estos sitios maravillosos</h2>
+            <div class="slide-inner">
+                <input class="slide-open" type="radio" id="slide-1" name="slide" aria-hidden="true" hidden="" checked="checked">
+                <div class="slide-item">
+                    <img src="img/corrin1.jpg" alt="Descripcion">
+                </div>
+                <input class="slide-open" type="radio" id="slide-2" name="slide" aria-hidden="true" hidden="" checked="checked">
+                <div class="slide-item">
+                    <img src="img/corrin2.jpg" alt="Descripcion">
+                </div>
+                <input class="slide-open" type="radio" id="slide-3" name="slide" aria-hidden="true" hidden="" checked="checked">
+                <div class="slide-item">
+                    <img src="img/corrin5.jpg" alt="Descripcion">
+                </div>
+                <label for="slide-3" class="slide-control prev control-1">‹</label>
+                <label for="slide-2" class="slide-control next control-1">›</label>
+                <label for="slide-1" class="slide-control prev control-2">‹</label>
+                <label for="slide-3" class="slide-control next control-2">›</label>
+                <label for="slide-2" class="slide-control prev control-3">‹</label>
+                <label for="slide-1" class="slide-control next control-3">›</label>
+                <ol class="slide-indicador">
+                    <li>
+                        <label for="slide-1" class="slide-circulo">•</label>
+                    </li>
+                    <li>
+                        <label for="slide-2" class="slide-circulo">•</label>
+                    </li>
+                    <li>
+                        <label for="slide-3" class="slide-circulo">•</label>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </section>
+    <!-- Cierre de sección del carricel -->
+    <section class="explora-sendero">
+        <button id="explora-boton">Explora el sendero</button>
+    </section>
+    <!-- Pie de página -->
+    <footer>
+
+    </footer>
+
+</body>
+</html>
